@@ -1,6 +1,6 @@
 body{
     
-    background-color: pink;
+    background-color: whitesmoke;
     background-size: cover;
     font-family: sans-serif;
     margin-top: 80px;
@@ -13,7 +13,7 @@ footer{
     bottom:0;
     left:0;
     width:100%;
-    height: 60px;
+    height: 30px;
     background-color: #D0DAEE;
     box-shadow:  0 2px 4px 0 rgba(0,0,0,.2);
     display: flex;
