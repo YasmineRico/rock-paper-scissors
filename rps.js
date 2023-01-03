@@ -5,7 +5,7 @@ const gameArr = ['rock', 'paper', 'scissors'];
 const computerSelection = gameArr[Math.floor(Math.random()*gameArr.length)];
 
 //variable for player selection
- let playerSelection = prompt("Choose: Rock/Paper/Scissors",'');
+ let playerSelection = prompt("Choose: Rock/Paper/Scissors");
 
 //will automatically lowercase user input to match gameArr;
 const userChoice = playerSelection.toLowerCase();
@@ -28,7 +28,7 @@ let compScore = 0;
 }
       
     function game(){
-        for(let i =0; i <5; i++){
+        for(let i =0; i <4; i++){
         const computerSelection = gameArr[Math.floor(Math.random()*gameArr.length)];
         let playerSelection = prompt("Choose: Rock/Paper/Scissors",'');
         singleRound(playerSelection, computerSelection); 
